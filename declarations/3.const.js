@@ -19,11 +19,14 @@ a.d = {};
 Object.freeze(a);
 a.b = 'Change to b';
 a.c = 'Added C prop';
+
+// a.b still equals 1
 console.log(a.b);
+
+// a.c is undefined
 console.log(a.c);
 
 // Object.freeze doesn't go deep
-
 a.d.e = "Me";
 
 console.log(a.d.e);

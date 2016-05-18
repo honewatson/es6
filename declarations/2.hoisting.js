@@ -1,4 +1,5 @@
 // functions are hoisted
+// you can call a function before it is declared
 
 x();
 

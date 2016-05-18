@@ -14,3 +14,4 @@ if(true) {
 
 // Will raise error because outside of block
 console.log(y);
+
