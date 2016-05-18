@@ -1,20 +1,26 @@
-/**
- * Functions are already a feature of Javascript
- */
-
-/**
- * ES5 Style
- */
-function hello() {
-    console.log('hello');
+/** ES5 **/
+function Person5(name) {
+    this.name = name;
+    this.greet = function greet() {
+        console.log(`Hi my name is ${this.name}`);
+    }
 }
 
-hello();
+var person5 = new Person5('Johnny');
 
-/**
- * ES6 Style Arrow Function
- */
-const hello2 = () => console.log('hello 2');
+person5.greet();
 
-hello2();
 
+/** ES6 **/
+class Person6 {
+  constructor(name) {
+    this.name = name;
+  }
+  greet() {
+    console.log(`Hi my name is ${this.name}`);
+  }
+}
+
+let person6 = new Person6('Hone');
+
+person6.greet();
