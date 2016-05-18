@@ -1,4 +1,4 @@
-// Parenthesis require the return keyword
+// Arrows with a block require the return keyword
 
 // Returns 'hello world'
 let greet = hello => `${hello} world`;

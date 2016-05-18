@@ -1,8 +1,4 @@
 /**
- * Functions are already a feature of Javascript
- */
-
-/**
  * ES5 Style
  */
 function hello() {
